@@ -7,8 +7,4 @@ char *encode(char *text, size_t rails);
 
 char *decode(char *ciphertext, size_t rails);
 
-void get_rails(char *text, size_t rails, char **ref);
-
-int *get_size_rails(char *text, size_t rails);
-
 #endif
